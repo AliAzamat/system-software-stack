@@ -1,0 +1,3 @@
+# Kbuild tells the kernel build system which module to build from which object.
+# A kernel module is built BY the kernel's own build system, not a bare gcc.
+obj-m += dpu_resmgr.o
